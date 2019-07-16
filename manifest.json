@@ -4,17 +4,16 @@
   "version": "1.0",
   "author": "David Ballesteros <davibq@gmail.com>",
   "icons": {
-    "16": "icon16.png",
-    "48": "icon48.png",
-    "128": "icon128.png"
+    "48": "icons/48.png",
+    "128": "icons/128.png"
   },
   "omnibox": { "keyword" : "go" },
   "background": {
     "persistent": false,
-    "scripts": ["background.js"]
+    "scripts": ["scripts/omnibox.js"]
   },
   "options_ui": {
-    "page": "options.html",
+    "page": "options/options.html",
     "open_in_tab": false
   },
   "permissions": [
