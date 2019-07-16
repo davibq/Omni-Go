@@ -1,0 +1,13 @@
+{
+  "aws": {
+    "lambda": "https://console.aws.amazon.com/lambda/home?region=us-east-1#/functions",
+    "s3": "https://s3.console.aws.amazon.com/s3/home?region=us-east-1"
+  },
+  "9gag": {
+    "cat": {
+      "%0": "https://9gag.com/%0"
+    }
+  },
+  "fb": "https://facebook.com",
+  "ig": "https://instagram.com"
+}
