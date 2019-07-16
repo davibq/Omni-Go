@@ -34,7 +34,7 @@ function getConfig() {
       return resolve(globalConfig)
     }
     chrome.storage.sync.get({
-      omniboxGoJSON: '{}'
+      omniboxGoJSON: null
     }, items => {
       if (!items.omniboxGoJSON) return reject(null)
 
